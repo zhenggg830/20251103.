@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5.js 互動測驗系統</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.2/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #333;
+            overflow: hidden; /* 防止滾動條出現 */
+        }
+        
+        /* 🚨 關鍵：隱藏瀏覽器游標，讓自訂游標軌跡生效 */
+        canvas {
+            cursor: none; 
+            border: 5px solid #555;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    </body>
+</html>
